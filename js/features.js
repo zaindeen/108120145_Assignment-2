@@ -1,6 +1,6 @@
 var URL = window.confirm('Greetings madam!\nClick OK to see github repo\nCancel to continue');
 if(URL){
-    window.open('https://github.com/zaindeen/webDev');
+    window.open('https://github.com/zaindeen/108120145_Assignment-2');
 }
 tvshows_ep_drop = document.querySelectorAll('.dropdown');
 tvshows_ep_drop.forEach(
