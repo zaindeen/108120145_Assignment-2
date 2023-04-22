@@ -6,7 +6,7 @@ tvshows_ep_drop = document.querySelectorAll('.dropdown');
 tvshows_ep_drop.forEach(
     drop => {drop.addEventListener('click',onWClick)}
 );
-click = [0,0,0];
+
 
 
 function checkAll(event){

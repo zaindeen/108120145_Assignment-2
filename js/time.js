@@ -1,5 +1,5 @@
 totalTime = [0,0,0];
-let prev = [[0,0],[0,0],[0,0]];
+
 
 // creating total time watched
 const timeBox  = document.createElement('div');

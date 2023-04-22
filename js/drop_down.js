@@ -1,3 +1,6 @@
+let prev = [[0,0],[0,0],[0,0]];
+click = [0,0,0];
+
 function create_drop_W(vertical,seasonNumber,show){
     //when season is selected the dropdown is hidden
     if(seasonNumber === 0){
@@ -71,7 +74,6 @@ function create_drop_W(vertical,seasonNumber,show){
         descTitle.classList.add('episode_title');
         descDate.classList.add('airing_date');
         descSumm.classList.add('episode_summary');
-        episode.draggable = 'false';
 
         //adding img src and desc from json
         if(i>8)
@@ -137,3 +139,5 @@ function onWClick(event){
     prev[val][0] = val;
     prev[val][1] = number;
 }
+
+
